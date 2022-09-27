@@ -5,7 +5,7 @@
 /* variables colores*/
 
 :root {
-    --colorprincipal: #2EC225;
+    --colorprincipal: #28b321;
     --colorsec: #537a51;
 }
 
@@ -362,13 +362,13 @@ html {
 }
 
 #portfolio .fila .proyecto {
-    max-width: 450px;
+    max-width: 350px;
     border: 1px solid #000;
     border-radius: 6px;
     margin: 0 10px;
-    position: relative;
-    
+    position: relative;   
 }
+
 
 #portfolio .fila .proyecto-audio {
     max-width: 450px;
@@ -491,7 +491,7 @@ html {
 }
 
 #contacto button:hover {
-    background-color: var(--colorprincipal);
+    background-color: var(--colorsec);
     color: #fff;
     border: 2px solid #fff
 }
@@ -517,11 +517,13 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #fff;
+    color: var(--colorprincipal);
     display: inline-block;
     margin: 5px;
     font-size: 20px;
 }
+
+
 
 /* SECCIÓN RESPONSIVE */
 
