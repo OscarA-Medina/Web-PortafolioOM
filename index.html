@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="media/images/morochologo1.webp" type="image/x-icon">
+    <script href=""></script>
+    <title>MOROCHO - Oscar Medina</title>
+</head>
+
+<body>
+
+    <!-- Sección INICIO-->
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>• Oscar Medina •</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#bio" onclick="seleccionar(this)">BIOGRAFÍA</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!--Íconos del menú responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!--Íconos de las redes sociales-->
+                    <div class="redes">
+                        <a href="https://www.youtube.com/channel/UCyW1kNQirUQZBLkM6f3zD0A" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/morocho.co/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></i></a>
+                        <a href="https://soundcloud.com/morocho-co" target="_blank"><i
+                                class="fa-brands fa-soundcloud"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=573162849873" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>        
+                    </div>
+                </div>
+            </header>
+
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Oscar Medina</span>, Ingeniero de Sonido y Productor musical</h2>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima expedita.</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección BIOGRAFÍA-->
+
+    <section id="bio">
+        <div class="contenedor-foto">
+            <img src="media/images/gral-blancoynegro.jpg" alt="">
+        </div>
+        <div class="bio">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Oscar Medina</span></h2>
+            <h3>Ingeniero de Sonido y Productor Musical</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, qui beatae. Eveniet ipsa alias est
+                unde voluptate ex sapiente maxime corporis vel. Voluptates enim natus id vero delectus impedit dolorem?
+            </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <a href="media/docs/cv-oscarmedina-22.pdf" target="_blank">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- Sección SERVICIOS-->
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">• MIS SERVICIOS •</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-podcast"></i></span>
+                <h4>Edición de Audio</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Edicion de multitracks</li>
+                    <li>Arreglo de clips </li>
+                    <li>Limpieza de tracks </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, alias, eos excepturi sequi
+                    accusantium inventore.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-microphone"></i></span>
+                <h4>Grabación</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Grabación de instrumentos</li>
+                    <li>Grabación de voces </li>
+                    <li>Operario de grabación </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, alias, eos excepturi sequi
+                    accusantium inventore.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-play"></i></span>
+                <h4>Mezcla</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Mezcla ITB</li>
+                    <li>Mezcla de singles, EP´s o álbumes</li>
+                    <li>Mezcla de sonido en vivo </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, alias, eos excepturi sequi
+                    accusantium inventore.</p>
+            </div>
+
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-clapperboard"></i></span>
+                <h4>Postproducción audiovisual</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Sonido Directo*</li>
+                    <li>Postproducción para corto y lagrometrajes </li>
+                    <li>Creación sonora para marcas y publicidad</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, alias, eos excepturi sequi
+                    accusantium inventore.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-music"></i></span>
+                <h4>Producción musical</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Maquetas y creación de proyectos</li>
+                    <li>Arreglos musicales </li>
+                    <li>Asesoría en proyectos musicales</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, alias, eos excepturi sequi
+                    accusantium inventore.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-volume-high"></i></span>
+                <h4>Mastering</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Mastering de proyectos</li>
+                    <li>Mastering por stems*</li>
+                    <li>Asesorías de mastering</li>
+                </ul>
+                <p>Todo lo que necesitas para que tu proyecto esté al nivel que requiere para ser lanzado en todas las plataformas de escucha. </p>
+                <p>*El mastering por stems tiene un costo adicional*</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección PORTAFOLIO -->
+
+    <section id="portfolio">
+        <h3 class="titulo-seccion">• PORTAFOLIO •</h3>
+        <h4 class="titulo-h4">• Proyectos Audiovisuales •</h4>
+        <div class="contenedor-portfolio">
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <video src="media/video/lalomadelacruzvideoclip-comprimido.mp4" controls></video>
+                    <div class="info">
+                        <h4>La loma de la Cruz - VIdeoclip oficial</h4>
+                        <p>Pre y postproducción de sonido</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <video src="media/video/zonafragil-audio1-comprimido.mp4" controls></video>
+                    <div class="info">
+                        <h4>Zona Frágil - Performance audiovisual</h4>
+                        <p>Dirección sonora y postproducción de sonido</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <video src="media/video/ramonavid01-comprimido.mp4" controls></video>
+                    <div class="info">
+                        <h4>Ramona - Live session</h4>
+                        <p>Sonido directo y postproducción de audio</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <h4 class="titulo-h4-2">•Proyectos Musicales•</h4>
+            <div class="fila">
+                <div class="proyecto-audio">
+                    <div class="overlay"></div>
+                    <audio src="media/audio/amorensueñosmaster1.wav" controls></audio>
+                    <div class="info">
+                        <h4>Amor En Sueños</h4>
+                        <p>Producción, mezcla y mastering</p>
+                    </div>
+                </div>
+                <div class="proyecto-audio">
+                    <div class="overlay"></div>
+                    <audio src="media/audio/lalomadelacruzmaster1.wav" controls></audio>
+                    <div class="info">
+                        <h4>La loma de la Cruz</h4>
+                        <p>Producción, mezcla y mastering</p>
+                    </div>
+                </div>
+                <div class="proyecto-audio">
+                    <div class="overlay"></div>
+                    <audio src="media/audio/santamoleculamaster2.wav" controls></audio>
+                    <div class="info">
+                        <h4>Santa Molécula</h4>
+                        <p>Producción, mezcla y mastering</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="fila2">
+                <div class="proyecto-audio">
+                    <div class="overlay"></div>
+                    <audio src="media/audio/ytwya-final.wav" controls></audio>
+                    <div class="info">
+                        <h4>Just the way you are</h4>
+                        <p>Grabación y mezcla</p>
+                    </div>
+                </div>
+                <div class="proyecto-audio">
+                    <div class="overlay"></div>
+                    <audio src="media/audio/sincero-wav.wav" controls></audio>
+                    <div class="info">
+                        <h4>Sincero</h4>
+                        <p>Producción, mezcla y mastering</p>
+                    </div>
+                </div>
+                <div class="proyecto-audio">
+                    <div class="overlay"></div>
+                    <audio src="media/audio/paac-cover.wav" controls></audio>
+                    <div class="info">
+                        <h4>Por amar a ciegas</h4>
+                        <p>Producción, arreglos, mezcla y mastering</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección CONTACTO -->
+
+    <section id="contacto" class="contact">
+        <div class="u-wrapper">
+          <div class="contact-content">
+    
+            <form id="form" action="" class="form" action="https://formspree.io/f/xyyvwkdo" method="POST">
+              <h3 class="tag"><span>CONTACTO</span></h3>
+              <label for="name">Nombre Completo <span>*</span></label>
+              <input name="name" required type="text" id="name" placeholder="Nombre">
+              <label for="email">Correo electrónico <span>*</span></label>
+              <input name="email" type="text" id="email" required placeholder="Correo electrónico">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" cols="30" rows="10"></textarea>
+              <button type="submit" class="btn primary full">enviar mensaje</button>
+            </form>
+            <a href="mailto:contacto.omedina@gmail.com" id="micorreo">mail</a>
+          </div>
+        </div>
+      </section>
+
+    <!-- Sección FOOTER --> 
+
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <p>web: <span>MOROCHO</span></p>
+        <div class="redes">
+            <a href="https://www.youtube.com/channel/UCyW1kNQirUQZBLkM6f3zD0A" target="_blank"><i
+                    class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/morocho.co/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://soundcloud.com/morocho-co" target="_blank"><i
+                    class="fa-brands fa-soundcloud"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=573162849873" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> 
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
