@@ -363,7 +363,7 @@ html {
 
 #portfolio .fila .proyecto {
     max-width: 350px;
-    border: 1px solid #000;
+    
     border-radius: 6px;
     margin: 0 10px;
     position: relative;   
@@ -527,6 +527,33 @@ footer a {
 
 /* SECCIÓN RESPONSIVE */
 
+@media screen and (max-width:1200px) {
+
+    #portfolio .fila {
+        
+    }
+
+    #portfolio .fila {
+        display: grid;
+        grid-template-areas:
+        "vid1 vid2"
+        "vid3 vid3";
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #portfolio .fila2 {
+        display: grid;
+        grid-template-areas:
+        "aud1 aud2"
+        "aud3 aud3";
+        align-items: center;
+        justify-content: space-around
+    }
+
+    
+}
+
 @media screen and (max-width:800px) {
     /*.redes {
         display: none;
@@ -649,4 +676,26 @@ footer a {
         text-align: center;
       }
 
+}
+
+@media screen and (max-width:430px) {
+    .redes {
+        display: none;
+    }
+
+    #inicio .presentacion p {
+        display: none;
+    }
+
+    #portfolio .fila2 .proyecto-audio {
+        margin: 10px 0; 
+        padding: 10px 0 0 20px;
+        
+    }
+
+    #portfolio .fila .proyecto-audio {
+        margin: 10px 0; 
+        padding: 10px 0 0 20px;
+        
+    }
 }
