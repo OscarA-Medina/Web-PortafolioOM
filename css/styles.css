@@ -36,6 +36,10 @@ html {
     top: 0;
 }
 
+#inicio .contenido .redes-mobile {
+    display: none;
+}
+
 #inicio .contenido header .contenido-header {
     max-width: 1100px;
     margin: auto;
@@ -679,6 +683,20 @@ footer a {
 @media screen and (max-width:430px) {
     .redes {
         display: none;
+    }
+
+    #inicio .contenido .redes-mobile {
+        display: inline-flex;
+       
+    }
+
+    #inicio .contenido .redes-mobile a {
+        color: #858C94;
+        padding: 10px 20px;
+        margin: 0 0 0 35px;
+        justify-content: space-between;
+        height: 40%;
+        width: 100%;
     }
 
     #inicio .presentacion p {
